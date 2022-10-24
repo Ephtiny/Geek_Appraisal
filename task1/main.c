@@ -13,13 +13,13 @@ int main()
 {
 	int n;
 	double y,a,h,last;
-	scanf_s("%lf", &a);
-	//a=1;
+	//scanf_s("%lf", &a);
+	a=1;
 	n = 0;
 	y = a;
 	h = 0.001;
 	while (1) {
-		printf("f(x%d*%lf)= %.15f\n", n, a, y);
+		printf("f(x%d*%lf)=%.15f\n", n, a, y);
 		last = y;
 		y = y - h*y;
 		if (last > y) {
@@ -33,7 +33,7 @@ int main()
 		n++;
 	}
 
-	printf("f(x%d*%lf)= %.15f\n", n, a, y);
+	printf("f(x%d*%lf)=%.15f\n", n, a, y);
 
 	return 0;
 }
