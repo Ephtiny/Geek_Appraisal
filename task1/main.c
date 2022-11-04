@@ -13,7 +13,7 @@ int main()
 {
 	int n;
 	double y,a,h,last;
-	scanf_s("%lf", &a);
+	scanf("%lf", &a);
 	//a=1;
 	n = 0;
 	y = a;
