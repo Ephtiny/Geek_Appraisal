@@ -13,8 +13,8 @@ int main()
 {
 	int n;
 	double y,a,h,last;
-	//scanf_s("%lf", &a);
-	a=1;
+	scanf_s("%lf", &a);
+	//a=1;
 	n = 0;
 	y = a;
 	h = 0.001;
